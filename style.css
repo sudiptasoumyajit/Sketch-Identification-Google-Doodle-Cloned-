@@ -1,0 +1,63 @@
+.modal-title{
+    background-color: white!important;
+}
+.modal-footer{
+    background-color: white!important;
+}
+.modal-content{
+    margin-left: 50px!important;
+    margin-right: 50px!important;
+}
+.modal-content img{
+    width: 500px!important;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: tomato;
+}
+.top h2{
+    text-decoration: dotted;
+    color: tomato;
+    letter-spacing: 5px;
+}
+.top{
+    width: 100%;
+    background-color: wheat;
+    text-align: center;
+    padding: 45px;
+}
+.result{
+    background-color: wheat;
+    border: none;
+}
+.footer{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    background-color: wheat;
+    text-overflow: hidden;
+}
+canvas{
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: example;
+    border-radius: 5px;
+    border: 2px solid lightgrey!important;
+    margin-top: 105px!important;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    visibility: hidden;
+}
+@keyframes example {
+    from{
+        box-shadow: 2px 2px 38px orange;
+    }
+    to {
+        box-shadow: 2px 2px 38px green;
+    }
+}
+#label, #confidence{
+    font-size: 15px;
+}
